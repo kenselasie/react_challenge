@@ -37,10 +37,6 @@ function useFetch (urlString, callbackFunction) {
         }
     }, [url])
 
-    useEffect(() => {
-        console.log('hook')
-    })
-
 
     return { data, error, loading, setUrl, setData }
 }
